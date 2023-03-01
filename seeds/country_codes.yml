@@ -1,0 +1,14 @@
+
+version: 2
+
+seeds:
+- name: country_codes
+  description: "Seed file containing country codes"
+  docs :
+    show : true
+  columns:
+          - name: country_code
+            description: "Field to store country codes"
+            quote : false
+            tests:
+                - not_null                

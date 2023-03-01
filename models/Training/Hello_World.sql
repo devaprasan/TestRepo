@@ -1,0 +1,1 @@
+select 'Hello World' as col1,'test123' as col2
